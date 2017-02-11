@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using HenryDVD.DAL;
 using HenryDVD.Models;
+using PagedList;
 
 namespace HenryDVD.Controllers
 {
@@ -17,11 +18,12 @@ namespace HenryDVD.Controllers
 
         // GET: Movies
         public ViewResult Index(string sortOrder, string searchString)
-        {
+        {            
             ViewBag.TitleSort = string.IsNullOrEmpty(sortOrder) ? "title_desc" : "";
             ViewBag.DirectorSort = sortOrder == "Director" ? "director_desc" : "Director";
             ViewBag.WriterSort = sortOrder == "Writer" ? "writer_desc" : "Writer";
-            ViewBag.LocSort = sortOrder == "Location" ? "location_desc" : "Location";
+            ViewBag.LocSort = sortOrder == "Location" ? "location_desc" : "Location";            
+
             var movies = from m in db.Movies select m;
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -53,7 +55,7 @@ namespace HenryDVD.Controllers
                 default:
                     movies = movies.OrderBy(m => m.Title);
                     break;
-            }          
+            }
             return View(movies.ToList());
         }
 

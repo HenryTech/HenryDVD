@@ -55,3 +55,7 @@ C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\bin\Newtonsoft.Json.xml
 C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\obj\Debug\HenryDVD.csprojResolveAssemblyReference.cache
 C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\obj\Debug\HenryDVD.dll
 C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\obj\Debug\HenryDVD.pdb
+C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\bin\PagedList.dll
+C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\bin\PagedList.Mvc.dll
+C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\bin\PagedList.xml
+C:\Users\Sean\Desktop\Projects\C#\HenryDVD\HenryDVD\bin\PagedList.Mvc.xml
