@@ -1,4 +1,4 @@
-## Developing a DVD Database using ASP.NET MVC and Entity Framework Code First
+## DVD Database using ASP.NET MVC and Entity Framework Code First
 
 ### Objective
 
